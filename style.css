@@ -1,0 +1,37 @@
+h1 {
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sectionMap {
+    display: flex;
+    justify-content: center;
+
+}
+
+#map {
+    height: 80vh;
+    width: 90%;
+    border-radius: 7px;
+}
+
+#sectionFiltros {
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.filtros {
+    background-color: white;
+    border: 0.1px solid rgb(216, 216, 216);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px grey;
+    margin-left: 20px;
+    margin-right: -8px;
+    margin-top: 10px;
+    padding: 7px 7px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="sectionFiltros">
+        <select name="filtroMag" id="filtroMag" class="filtros">
+            <option value="todas">Magnitud: todas</option>
+            <option value="mag0">Magnitud: 0</option>
+            <option value="mag1">Magnitud: 1</option>
+            <option value="mag2">Magnitud: 2</option>
+            <option value="mag3">Magnitud: 3</option>
+            <option value="mag4">Magnitud: 4</option>
+            <option value="mag5">Magnitud: 5</option>
+            <option value="mag6">Magnitud: 6</option>
+            <option value="mag7">Magnitud: 7</option>
+        </select>
+        <select name="filtroInicio" id="filtroInicio" class="filtros">
+            <option value="Todas">Fecha inicio: todas</option>
+            <option value="inicio2024">Fecha inicio: 2024</option>
+            <option value="inicio2023">Fecha inicio: 2023</option>
+            <option value="inicio2022">Fecha inicio: 2022</option>
+            <option value="inicio2021">Fecha inicio: 2021</option>
+            <option value="inicio2020">Fecha inicio: 2020</option>
+        </select>
+        <select name="filtroFinal" id="filtroFinal" class="filtros">
+            <option value="Todas">Fecha final: todas</option>
+            <option value="final2024">Fecha final: 2024</option>
+            <option value="final2024">Fecha final: 2023</option>
+            <option value="final2024">Fecha final: 2022</option>
+            <option value="final2024">Fecha final: 2021</option>
+            <option value="final2024">Fecha final: 2020</option>
+        </select>
+        <h1>Earthquake API</h1>
+    </section>
+    <section id="sectionMap">
+        <div id="map"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
